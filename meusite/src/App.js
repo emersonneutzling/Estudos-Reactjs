@@ -25,10 +25,11 @@ const Sobre = (props) => {
 export default function App(){
     return(
         <div>
-           <h1>Conheça nossa equipe:</h1>
+           <h1 style={{color:"red"}}>Conheça nossa equipe:</h1>
            <Equipe nome="Emerson" cargo="Front-End" idade="35"/>
            <Equipe nome="Carlos" cargo="Back-End" idade="40"/>
            <Equipe nome="Maria" cargo="Ful-stack" idade="29"/>
+           <Equipe nome="Paulo" cargo="Ful-stack" idade="45"/>
 
         </div>
     );
